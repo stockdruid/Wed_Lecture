@@ -1,0 +1,65 @@
+.wrap {
+    width: 580px;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    float: left;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.nav {
+    float: right;
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+}
+
+.nav li {
+    float: left;
+    margin-left: 20px;
+}
+
+.content {
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.main {
+    float: left;
+    width: 340px;
+    padding: 0 15px;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+.main h2 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.side {
+    float: right;
+    width: 155px;
+    padding: 0 15px;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+.side h3 {
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.footer {
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+}
