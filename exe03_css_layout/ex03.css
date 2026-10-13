@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#wrap {
+    width: 790px;
+    margin: 10px auto;
+}
+
+#header {
+    padding: 30px 0;
+    background: red;
+    color: white;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+#header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+#nav {
+    overflow: hidden;
+    background: red;
+}
+
+#nav li {
+    float: left;
+    width: 20%;
+    border-left: 1px solid white;
+}
+
+#nav li:first-child {
+    border-left: none;
+}
+
+#nav a {
+    display: block;
+    padding: 12px 0;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* One True Layout: 세 단 높이를 같게 맞춤 */
+#middle {
+    overflow: hidden;
+}
+
+#profile,
+#content,
+#skills {
+    float: left;
+    padding: 20px 18px;
+    padding-bottom: 1000px;
+    margin-bottom: -980px;
+}
+
+#profile {
+    width: 158px;
+    background: blue;
+    font-size: 13px;
+}
+
+#content {
+    width: 474px;
+    background: white;
+}
+
+#skills {
+    width: 158px;
+    background: blue;
+    font-size: 13px;
+}
+
+#profile h3,
+#skills h3 {
+    margin-top: 0;
+    color: gray;
+    font-size: 16px;
+}
+
+#profile p {
+    margin: 0 0 10px;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+#content h2 {
+    margin-top: 0;
+    color: gray;
+    font-size: 20px;
+}
+
+.project {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid pink;
+    background: white;
+}
+
+.project h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.project p {
+    margin: 0;
+    font-size: 13px;
+}
+
+#footer {
+    padding: 15px 0;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+#footer p {
+    margin: 0;
+}
